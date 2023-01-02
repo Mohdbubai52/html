@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+        <table >
+          <tbody>
+            <tr>
+                <th colspan="2">Ragistration form</th>
+            </tr>
+            <tr>
+                <td align="left" >Name :</td>
+                <td><input type="text" name="nm"  requried pattern="[a-zA-Z]{3,30}"title="min 3 and max 30"></td>
+            </tr>
+            <tr>
+                <td align="left">Email :</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td align="left">Password :</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td align="left">Ph No. :</td>
+                <td><input type="text" name="phno" requried pattern="[1-9]{10}" title="10 digite only"></td>
+            </tr>
+            <tr>
+                <td align="left" >Gender :</td>
+                <td><input type="radio" name="Gender" id="">Male
+               <input type="radio" name="Gender" id="">Female
+                <input type="radio" name="Gender" id="">Other </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" >
+                    <input type="reset">
+                </td>
+            </tr>
+          </tbody>
+        </table>
+    </form>
+</body>
+</html>
